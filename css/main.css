@@ -112,3 +112,25 @@ section {
 .about-list li + li {
   padding-top: 20px;
 }
+
+/* knowledge */
+.knowledge {
+  background: rgb(48, 85, 128);
+}
+
+.knowledge .title-2 {
+  color: white;
+}
+
+.knowledge-list {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.knowledge-list__item {
+  width: 120px;
+}

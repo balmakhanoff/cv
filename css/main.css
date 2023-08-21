@@ -192,6 +192,25 @@ section {
   text-transform: uppercase;
 }
 
+.contacts {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contacts__item a img {
+  width: 30px;
+}
+
+a.contacts-btn {
+  padding-top: 30px;
+  display: block;
+  color: red;
+}
+
+/* media */
 @media (max-width: 450px) {
   section {
     padding: 50px 0;

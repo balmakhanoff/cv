@@ -90,6 +90,30 @@ section {
   min-width: 290px;
 }
 
+.banner .title-1 {
+  animation: titleColor 5s infinite ease-in-out;
+}
+
+@keyframes titleColor {
+  0% {
+    color: white;
+  }
+  25% {
+    color: rgb(240, 240, 83);
+    text-shadow: 1px 1px 3px black;
+  }
+  50% {
+    color: pink;
+  }
+  75% {
+    color: rgb(163, 238, 163);
+    text-shadow: 1px 1px 3px orange;
+  }
+  100% {
+    color: wheat;
+  }
+}
+
 /* about */
 .about__title {
   padding: 0 15px;

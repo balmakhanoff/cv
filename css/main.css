@@ -84,3 +84,31 @@ section {
   border-bottom: 1px solid black;
   min-width: 290px;
 }
+
+/* about */
+.about__title {
+  padding: 0 15px;
+  color: brown;
+}
+.about fieldset {
+  border: 2px solid rgb(95, 10, 10);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.about legend {
+  text-align: center;
+}
+
+.about-list {
+  font-size: 24px;
+}
+
+.about-list li img {
+  width: 35px;
+  vertical-align: middle;
+}
+
+.about-list li + li {
+  padding-top: 20px;
+}

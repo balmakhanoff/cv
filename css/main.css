@@ -67,9 +67,10 @@ section {
 
 /* banner  */
 .banner {
-  background-image: url("./../images/banner-bg.jpg");
+  background-image: url("./../images/banner-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .banner__wrapper {
